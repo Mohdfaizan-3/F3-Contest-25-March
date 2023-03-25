@@ -36,19 +36,41 @@ main {
 
 body {
   min-height: 100vh;
+  background-color: rgb(181, 179, 179);
 }
-
 
 .wrapper {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 70vw;
   width: 100vw;
   height: 100dvh;
+
   overflow: auto; /* Adding overflow: auto; will establish a new
   block formatting context and prevent the .wrapper element from collapsing*/
 }
 
-
 button {
   all: unset;
+  background-color: black;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 5px;
+  display: block;
+  margin: 3em auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.display-map {
+  margin: 1em auto;
+  width: 100%;
+  height: 400px;
 }
